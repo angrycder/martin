@@ -3,12 +3,11 @@ import Image from "next/image";
 import React from 'react';
 
 import { createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
-import { teal, purple } from '@material-ui/core/colors';
+import { teal} from '@material-ui/core/colors';
 import LanguageTwoToneIcon from '@material-ui/icons/LanguageTwoTone';
 import GithubIcon from '@material-ui/icons/Github';
 import WorkTwoToneIcon from '@material-ui/icons/WorkTwoTone';
 
-import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
