@@ -1,0 +1,17 @@
+.foot{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+ .foot div{
+     display: flex;
+     align-items: center;
+ }
+.foot h5{
+    font-family: 'Lato';
+    color: white;
+}

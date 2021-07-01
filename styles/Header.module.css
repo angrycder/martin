@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    width: fit-content;
+}
+.nav h4{
+    padding: 15px;
+    color: white;
+    font-family: 'Lato';
+    cursor: pointer;
+}
+.nav h4:hover{
+    padding: 15px;
+    color: #1d9a53;
+    font-family: 'Lato';
+    cursor: pointer;
+}
+.spacer {
+    flex: 1 1 auto;
+  }
+.header{
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}

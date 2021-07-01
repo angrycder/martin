@@ -1,0 +1,18 @@
+.screen{
+    min-height: calc(100vh - 150px);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.heading{
+    width: 100%;
+}
+
+.card{
+    width: 300px;
+}
+
+.content{
+    width: 100%;
+}
