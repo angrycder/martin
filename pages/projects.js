@@ -85,9 +85,10 @@ const Projects = () => {
     return ( 
     <div className={styles.screen}>
         {
-            list.map((val)=>{
+            list.map((val,idx)=>{
                 return(
                     <Card
+                    key={idx}
                     title={val.title}
                     altimg={val.alt}
                     imgref={val.img}
