@@ -5,7 +5,7 @@ import React from 'react';
 import { createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
 import { teal} from '@material-ui/core/colors';
 import LanguageTwoToneIcon from '@material-ui/icons/LanguageTwoTone';
-import GithubIcon from '@material-ui/icons/Github';
+
 import WorkTwoToneIcon from '@material-ui/icons/WorkTwoTone';
 
 import Dialog from '@material-ui/core/Dialog';
@@ -47,9 +47,7 @@ const Card = ({title,imgref,altimg,cont,contributions}) => {
               <LanguageTwoToneIcon
               color="primary"
               />
-              <GithubIcon
-              color="primary"
-              />
+
               <WorkTwoToneIcon
               color="primary" 
               onClick={handleClickOpen}
