@@ -1,11 +1,12 @@
 import styles from '../styles/Card.module.css';
 import Image from "next/image";
 import React from 'react';
+import Link from 'next/link'
 
 import { createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
 import { teal} from '@material-ui/core/colors';
 import LanguageTwoToneIcon from '@material-ui/icons/LanguageTwoTone';
-
+import GitHubIcon from '@material-ui/icons/GitHub';
 import WorkTwoToneIcon from '@material-ui/icons/WorkTwoTone';
 
 import Dialog from '@material-ui/core/Dialog';
@@ -18,7 +19,7 @@ const theme = createMuiTheme({
     primary: teal,
   },
 });
-const Card = ({title,imgref,altimg,cont,contributions}) => {
+const Card = ({title,imgref,altimg,cont,contributions,git,link}) => {
   
   const [open, setOpen] = React.useState(false);
 
@@ -44,13 +45,22 @@ const Card = ({title,imgref,altimg,cont,contributions}) => {
           </div>
             <ThemeProvider theme={theme}>
               <div className={styles.but}>
-              <LanguageTwoToneIcon
-              color="primary"
-              />
-
+                <Link href={link}>
+                    <LanguageTwoToneIcon
+                    color="primary"
+                    className={styles.notice}
+                    />
+                </Link>
+                <Link href={git}>
+                    <GitHubIcon
+                    color="primary"
+                    className={styles.notice}
+                    />
+                </Link>
               <WorkTwoToneIcon
               color="primary" 
               onClick={handleClickOpen}
+              className={styles.notice}
               />
               </div>
             </ThemeProvider>

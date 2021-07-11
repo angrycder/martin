@@ -12,6 +12,9 @@ const Header = () => {
             <Link href="/projects">
                 <h4>Projects</h4>
             </Link>
+            <Link href="/skills">
+                <h4>Skills</h4>
+            </Link>
             <Link href="/resume.pdf">
                 <h4>Resume</h4>
             </Link>

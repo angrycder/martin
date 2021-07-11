@@ -1,0 +1,35 @@
+.screen{
+    min-height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.screen h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.screen h2{
+    color: white;
+    font-family: 'Lato';
+    font-weight: 100;
+}
+.screen li{
+    color: white;
+    font-family: 'Lato';
+    font-weight: 100;
+}
+
+.tit{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.lists{
+    padding: 0px 0px 0px 10px;
+}

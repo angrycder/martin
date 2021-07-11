@@ -13,7 +13,8 @@
 }
 
 .screen p{
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
