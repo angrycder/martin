@@ -1,12 +1,11 @@
 import styles from '../styles/Profile.module.css';
-import Head from 'next/head'
-import { style } from '@material-ui/system';
+import Head from 'next/head';
 
 const Skills = () => {
     return ( 
     <div className={styles.screen}>
         <Head>
-        <title>Profile</title>
+        <title>Skills</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>

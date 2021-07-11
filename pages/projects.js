@@ -1,4 +1,5 @@
 import styles from '../styles/Projects.module.css';
+import Head from 'next/head';
 import Card from '../comps/Card.js'
 const Projects = () => {
 
@@ -96,7 +97,13 @@ const Projects = () => {
         }
     ]
 
-    return ( 
+    return ( <>
+        <Head>
+        <title>Projects</title>
+        <meta name="description" content="Karyamsetty Martin's projects"></meta>
+        <meta name="keywords" content="Karyamsetty Martin, ksnmartin,projects"></meta>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
     <div className={styles.screen}>
         {
             list.map((val,idx)=>{
@@ -115,6 +122,7 @@ const Projects = () => {
             })
         }
     </div> 
+    </>
     );
 }
  
