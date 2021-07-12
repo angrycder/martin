@@ -25,6 +25,9 @@ const Skills = () => {
              <i className="devicon-xd-plain colored"></i>
              <i className="devicon-figma-plain colored"></i>
              <i className="devicon-amazonwebservices-original colored"></i>
+             <i className="devicon-mysql-plain colored"></i>
+             <i className="devicon-postgresql-plain colored"></i>
+             <i className="devicon-sqlalchemy-plain"></i>
         </h2>
       </div>
         <div className={styles.lists}>
@@ -40,6 +43,14 @@ const Skills = () => {
             <ul>
                 <li>Java </li>
                 <li>R</li>
+            </ul>
+        </div>
+        <div className={styles.lists}>
+            <h1>Database Management Systems</h1>
+            <ul>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>MonoDB</li>
             </ul>
         </div>
         <div className={styles.lists}>

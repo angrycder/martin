@@ -2,6 +2,10 @@
     display: flex;
     width: fit-content;
 }
+.nav2{
+    display: none;
+    width: fit-content;
+}
 .nav h4{
     padding: 15px;
     color: white;
@@ -14,6 +18,18 @@
     font-family: 'Lato';
     cursor: pointer;
 }
+
+@media only screen and (max-width: 700px) {
+    .nav {
+        display: none;
+        width: fit-content;
+    }
+    .nav2 {
+        display: flex;
+        width: fit-content;
+    }
+}
+
 .spacer {
     flex: 1 1 auto;
   }
