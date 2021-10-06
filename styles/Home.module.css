@@ -18,6 +18,15 @@
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+.screen h1{
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 .screen h4{
   color: white;

@@ -10,13 +10,13 @@ export default function Home() {
         <meta name="description" content="Portfolio site for Karyamsetty Martin"></meta>
         <meta name="keywords" content="Karyamsetty Martin, ksnmartin"></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="image" property="og:image" content="https://martin.vercel.app/me.jpeg"/>
       </Head>
       <h4>Hi there nice to meet you</h4>
       <Image src="/me.jpeg" width={250} height={250} alt="Logo" className={styles.me}/>
-      <p>
-        I am Karyamsetty Martin a Mechanical engineering undergradute at IIT (BHU), varanasi .
-        I am a creative software developer
-      </p>
+      <h1>
+        I am Karyamsetty Martin a senior undergradute at the mechanical engineering department of IIT (BHU), varanasi  .
+      </h1>
       <p>
         I have experience in building full-stack web applications,mobile applications,REST APIs, . I love working with new tech and have worked with multiple technologies and languages.
       </p>
