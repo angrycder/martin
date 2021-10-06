@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Portfolio site for Karyamsetty Martin"></meta>
         <meta name="keywords" content="Karyamsetty Martin, ksnmartin"></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="image" property="og:image" content="https://martin.vercel.app/me.jpeg"/>
+        <meta property="og:image" content="https://martin.vercel.app/me.jpeg"/>
       </Head>
       <h4>Hi there nice to meet you</h4>
       <Image src="/me.jpeg" width={250} height={250} alt="Logo" className={styles.me}/>
