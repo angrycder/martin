@@ -92,7 +92,7 @@ const Skills = () => {
             </ul>
         </div>
         <div className={styles.lists}>
-            <h1>payment gateway integrations</h1>
+            <h1>Payment gateway integrations</h1>
             <ul>
                 <li>Paytm</li>
                 <li>Instamojo</li>
