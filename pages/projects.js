@@ -5,7 +5,21 @@ const Projects = () => {
 
     const list = [
         {
-            title:"FMC Weekend",
+            title:"Kashiyatra 2022",
+            alt:"KY22",
+            img:"/project0.png",
+            content:"Kashiyatra is the annual socio-cultural festival of IIT(BHU) Varanasi",
+            contrib:[
+                "Lead the back-end development of the website",
+                "Fixed critical security bugs",
+                "Integrated google appscript for data viewing",
+                "Techonologies used :  Django,Digital Ocean,Python"
+            ],
+            git:"https://github.com/ksnmartin/KY22",
+            link:"https://kashiyatra.org/"
+        },
+        {
+            title:"FMC Weekend 2021",
             alt:"FMC",
             img:"/project1.png",
             content:"FMC Weekend is a digital arts festival conducted by the Film and media council of IIT(BHU) ,Varanasi",
@@ -19,7 +33,7 @@ const Projects = () => {
             link:"http://fmcweekend.in/"
         },
         {
-            title:"FMC Weekend Merchandise",
+            title:"FMC Weekend 2021 Merchandise",
             alt:"FMC",
             img:"/project1.png",
             content:"FMC Weekend conducts a Merchandise sale every year to promote the event",
