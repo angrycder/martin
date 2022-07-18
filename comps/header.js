@@ -6,6 +6,7 @@ import { useState } from 'react';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Menu from '@material-ui/core/Menu';
+import CloseIcon from '@material-ui/icons/Close'
 import MenuItem from '@material-ui/core/MenuItem';
 
 import { createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
@@ -63,6 +64,38 @@ const Header = () => {
                 keepMounted
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
+                marginThreshold={0}
+                PaperProps={{
+                    style: {
+                            width: "100%",
+                            maxWidth: "100%",
+                            maxHeight: "100%",
+                            height:"100%",
+                            left: 0,
+                            right: 0,
+                            top : 0,
+                            display:"flex",
+                            alignItems:"center",
+                            justifyContent:"center",
+                            
+                        }
+                        }}
+                MenuListProps={{
+                    style:{
+                        display:"flex",
+                        flexDirection:"column",
+                        alignItems:"center",
+                        justifyContent:"center",
+                    }
+                }}
+                anchorOrigin={{
+                    vertical: 'center',
+                    horizontal: 'center',
+                    }}
+                    transformOrigin={{
+                    vertical: 'center',
+                    horizontal: 'center',
+                    }}
             >
                 <MenuItem onClick={handleClose}>
                     <Link href="/">
@@ -83,6 +116,15 @@ const Header = () => {
                     <Link href="/resume.pdf">
                         <p>Resume</p>
                     </Link>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                    <ThemeProvider theme={theme}>
+                        <IconButton
+                            color="primary"
+                        >
+                            <CloseIcon />
+                        </IconButton>
+                    </ThemeProvider> 
                 </MenuItem>
             </Menu>
         </nav>
