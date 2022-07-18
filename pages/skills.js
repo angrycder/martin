@@ -50,7 +50,7 @@ const Skills = () => {
             <ul>
                 <li>MySQL</li>
                 <li>PostgreSQL</li>
-                <li>MonoDB</li>
+                <li>MongoDB</li>
             </ul>
         </div>
         <div className={styles.lists}>
@@ -58,8 +58,8 @@ const Skills = () => {
             <ul>
                 <li>Angular</li>
                 <li>React</li>
-                <li>Next.js</li>
-                <li>Express.js</li>
+                <li>Next</li>
+                <li>Express</li>
             </ul>
         </div>
         <div className={styles.lists}>
