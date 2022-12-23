@@ -15,7 +15,7 @@ export default function Home() {
       <h4>Hi there 👋 I am Karyamsetty Martin</h4>
       <Image src="/me.jpeg" width={250} height={250} alt="Logo" className={styles.me}/>
       <h1>
-        I am currently working as a Associate Software Engineer at Gojek on the GoFood team.
+        I am currently looking for a new job. I formerly worked as a Associate Software Engineer at Gojek on the GoFood team.
       </h1>
       <p>
         I am currently learning Rust,GoLang and Android and to know more about my skill set you can check the skills section of the website
