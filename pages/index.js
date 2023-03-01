@@ -16,7 +16,7 @@ export default function Home() {
       <Image src="/me.jpeg" width={250} height={250} alt="Logo" className={styles.me}/>
       <h1>
         I am working as a Software Engineer at Mailmodo .I Formerly worked as a Software Engineer at gojek on the GoFood team
-      </h1
+      </h1>
       <p>
         I am learning Rust,GoLang and Android and to know more about my skill set you can check the skills section of the website
       </p>
